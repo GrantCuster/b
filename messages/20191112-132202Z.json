@@ -1,1 +1,1 @@
-[{"message":"hi grant"},{"message":"oh hello"},{"message":"20191112-140007Z"},{"timestamp":"20191112-140051Z","message":"test"}]
+[{"message":"hi grant"},{"message":"oh hello"},{"message":"20191112-140007Z"},{"timestamp":"20191112-140051Z","message":"test"},{"timestamp":"20191112-142749Z","message":"async test","files":["files/b-20191112-142749Z-0.png","files/b-20191112-142749Z-1.png"]}]
