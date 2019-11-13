@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node ./build_post_index.js && next dev",
+    "dev": "node ./build_post_index.js && node ./build_posts.js && next dev",
     "build": "next build",
     "start": "next start"
   },
