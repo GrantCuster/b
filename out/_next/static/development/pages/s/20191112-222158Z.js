@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/s/20191112-222158Z.js"],{
 
 /***/ "./components/header.js":
 /*!******************************!*\
@@ -5194,21 +5194,21 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Findex.js!./":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js!./":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/s/20191112-222158Z", function() {
+      var mod = __webpack_require__(/*! ./pages/s/20191112-222158Z.js */ "./pages/s/20191112-222158Z.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/s/20191112-222158Z.js */ "./pages/s/20191112-222158Z.js", function() {
+          if(!next.router.components["/s/20191112-222158Z"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/s/20191112-222158Z.js */ "./pages/s/20191112-222158Z.js")
+          next.router.update("/s/20191112-222158Z", updatedPage)
         })
       }
       return mod
@@ -12090,27 +12090,26 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/s/20191112-222158Z.js":
+/*!*************************************!*\
+  !*** ./pages/s/20191112-222158Z.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return postPage; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _posts_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../posts.js */ "./posts.js");
-/* harmony import */ var _layouts_main__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../layouts/main */ "./layouts/main.js");
-/* harmony import */ var _components_post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/post */ "./components/post.js");
-/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/header */ "./components/header.js");
-var _jsxFileName = "/Users/grant.custer/Sites/b/pages/index.js";
+/* harmony import */ var _components_post__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/post */ "./components/post.js");
+/* harmony import */ var _layouts_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../layouts/main */ "./layouts/main.js");
+/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/header */ "./components/header.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "/Users/grant.custer/Sites/b/pages/s/20191112-222158Z.js";
+
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
 
 
 
@@ -12118,100 +12117,85 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var fs = 14;
 var lh = 1.5;
 var rlh = fs * lh;
-
-var Home = function Home() {
-  return __jsx("div", {
+function postPage() {
+  return __jsx(_layouts_main__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, __jsx("title", {
+  }, "b. ", content.timestamp), __jsx("link", {
+    rel: "icon",
+    href: "/favicon.ico",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "b.grantcuster.com"), __jsx("link", {
-    rel: "icon",
-    href: "/favicon.ico",
+  })), __jsx(_components_header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    rlh: rlh,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
-  })), __jsx(_layouts_main__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), __jsx(_components_post__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    post: content,
+    rlh: rlh,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    rlh: rlh,
-    index: true,
+  }), __jsx("div", {
+    className: "wrap",
+    style: {
+      marginBottom: rlh * 2
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }), _posts_js__WEBPACK_IMPORTED_MODULE_2__["default"].map(function (post) {
-    return __jsx(_components_post__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      post: post,
-      rlh: rlh,
-      index: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22
-      },
-      __self: this
-    });
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Home);
-
-/***/ }),
-
-/***/ "./posts.js":
-/*!******************!*\
-  !*** ./posts.js ***!
-  \******************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// automatically generated by build_post_index.js
-/* harmony default export */ __webpack_exports__["default"] = ([{
-  "timestamp": "20191113-135853Z",
-  "message": "A set of websites you equip and combine like items in an RPG.",
-  "tweet_intent": "true",
-  "toot_intent": "true",
-  "files": []
-}, {
+  }, __jsx("a", {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "b.grantcuster.com")));
+}
+var content = {
   "timestamp": "20191112-222158Z",
   "message": "I wrote this in an app and now it will be posted to Twitter and Mastodon at the same time. I'm including two images because it was very hard for me to get multiple images working in the API so this is my victory post.",
   "tweet_intent": "true",
   "toot_intent": "true",
   "files": ["files/b-20191112-222158Z-0.png", "files/b-20191112-222158Z-1.png"]
-}]);
+};
 
 /***/ }),
 
-/***/ 0:
-/*!***********************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Findex.js ***!
-  \***********************************************************************************************************************/
+/***/ 1:
+/*!**********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js!./");
 
 
 /***/ }),
@@ -12227,5 +12211,5 @@ module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=20191112-222158Z.js.map
