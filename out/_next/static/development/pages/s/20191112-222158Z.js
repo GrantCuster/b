@@ -11,9 +11,12 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/grant.custer/Sites/b/components/header.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/grant.custer/Sites/gracus/s/components/header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var rlh = _ref.rlh,
       _ref$index = _ref.index,
@@ -22,19 +25,33 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "wrap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 5
     },
     __self: this
   }, __jsx("div", {
     style: {
-      height: rlh
+      marginTop: rlh,
+      marginBottom: rlh * 2
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 6
     },
     __self: this
-  }));
+  }, index ? 'Status reports:' : __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Status reports"))));
 });
 
 /***/ }),
@@ -52,7 +69,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/grant.custer/Sites/b/components/post.js";
+var _jsxFileName = "/Users/grant.custer/Sites/gracus/s/components/post.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -100,6 +117,7 @@ function processStamp(stamp) {
     __self: this
   }, index ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: '/s/' + post.timestamp,
+    as: '/' + post.timestamp + '.html',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -108,14 +126,14 @@ function processStamp(stamp) {
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }, processStamp(post.timestamp))) : processStamp(post.timestamp))), __jsx("div", {
     className: index ? 'image-wrap' : '',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 33
     },
     __self: this
   }, post.files.map(function (file) {
@@ -126,7 +144,7 @@ function processStamp(stamp) {
       src: '/' + file,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 35
       },
       __self: this
     });
@@ -137,7 +155,7 @@ function processStamp(stamp) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 39
     },
     __self: this
   }, __jsx("div", {
@@ -146,7 +164,7 @@ function processStamp(stamp) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 40
     },
     __self: this
   }, post.message)));
@@ -167,7 +185,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/grant.custer/Sites/b/layouts/main.js";
+var _jsxFileName = "/Users/grant.custer/Sites/gracus/s/layouts/main.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -187,7 +205,7 @@ var rlh = fs * lh;
     id: "1498286021",
     dynamic: [fs, lh, rlh / 2, rlh / 2],
     __self: this
-  }, "@font-face{font-family:'customono';src:url('/IBMPlexMono-Regular.woff2') format('woff2'), url('/IBMPlexMono-Regular.woff') format('woff');}*{box-sizing:border-box;}html{font-family:'customono',monospace;font-size:".concat(fs, "px;background:#efefef;line-height:").concat(lh, ";}body{margin:0;padding:0;}canvas{display:block;}img,video{display:block;max-width:100%;}a{color:inherit;}textarea,input,button{font-family:inherit;font-size:inherit;line-height:inherit;padding:0;border:none;margin:0;text-align:left;background:transparent;color:black;}input,button{-webkit-text-decoration:underline;text-decoration:underline;cursor:pointer;}textarea{background:white;width:100%;padding-left:1ch;padding-right:1ch;padding-top:").concat(rlh / 2, "px;padding-bottom:").concat(rlh / 2, "px;}.wrap{max-width:64ch;margin:0 auto;padding-left:2ch;padding-right:2ch;}.image-wrap{max-width:134ch;margin:0 auto;padding-left:2ch;padding-right:2ch;}.hide-outline button:focus{outline:none;}label{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}label input{margin-right:1ch;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9ncmFudC5jdXN0ZXIvU2l0ZXMvYi9sYXlvdXRzL21haW4uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTXVCLEFBR2lDLEFBS0YsQUFHYSxBQU0xQixBQUlLLEFBSUEsQUFJQSxBQUtNLEFBWU0sQUFJVCxBQVFGLEFBTUMsQUFPSCxBQUdJLEFBTUEsU0E5RFAsSUFzRFosQ0FsREEsQUFJaUIsQUFJakIsQ0E2QmdCLENBTUEsQ0FkSCxBQThCYixFQTlEQSxDQWdCb0IsRUExQnBCLEVBSm1ELElBK0NoQyxDQXpCbkIsQUFpQ21CLENBTUEsSUF0RHdCLElBd0JyQixPQWlCRixDQVFBLENBTUEsV0E5QlIsRUFVSyxHQU80QixDQVE3QyxDQU1BLEdBOUJjLE9BekJPLEFBbUNyQixLQVRXLEtBb0NNLElBbkNDLEtBMUJ5QixNQThENUIsS0FuQ1UsQ0FjdUIscUJBakRoRCxDQW9DYyxPQTNCZCxLQTRCQSxZQWFBLHNCQXFCcUIsNkZBQ3JCIiwiZmlsZSI6Ii9Vc2Vycy9ncmFudC5jdXN0ZXIvU2l0ZXMvYi9sYXlvdXRzL21haW4uanMiLCJzb3VyY2VzQ29udGVudCI6WyJsZXQgZnMgPSAxNDtcbmxldCBsaCA9IDEuNTtcbmxldCBybGggPSBmcyAqIGxoO1xuZXhwb3J0IGRlZmF1bHQgKHsgY2hpbGRyZW4gfSkgPT4gKFxuICA8ZGl2PlxuICAgIHtjaGlsZHJlbn1cbiAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxuICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnY3VzdG9tb25vJztcbiAgICAgICAgc3JjOiB1cmwoJy9JQk1QbGV4TW9uby1SZWd1bGFyLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpLFxuICAgICAgICAgIHVybCgnL0lCTVBsZXhNb25vLVJlZ3VsYXIud29mZicpIGZvcm1hdCgnd29mZicpO1xuICAgICAgfVxuICAgICAgKiB7XG4gICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICB9XG4gICAgICBodG1sIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdjdXN0b21vbm8nLCBtb25vc3BhY2U7XG4gICAgICAgIGZvbnQtc2l6ZTogJHtmc31weDtcbiAgICAgICAgYmFja2dyb3VuZDogI2VmZWZlZjtcbiAgICAgICAgbGluZS1oZWlnaHQ6ICR7bGh9O1xuICAgICAgfVxuICAgICAgYm9keSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgIH1cbiAgICAgIGNhbnZhcyB7XG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgfVxuICAgICAgaW1nLFxuICAgICAgdmlkZW8ge1xuICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgICAgfVxuICAgICAgYSB7XG4gICAgICAgIGNvbG9yOiBpbmhlcml0O1xuICAgICAgfVxuICAgICAgdGV4dGFyZWEsXG4gICAgICBpbnB1dCxcbiAgICAgIGJ1dHRvbiB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiBpbmhlcml0O1xuICAgICAgICBmb250LXNpemU6IGluaGVyaXQ7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiBpbmhlcml0O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICAgICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XG4gICAgICAgIGNvbG9yOiBibGFjaztcbiAgICAgIH1cbiAgICAgIGlucHV0LFxuICAgICAgYnV0dG9uIHtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgIH1cbiAgICAgIHRleHRhcmVhIHtcbiAgICAgICAgYmFja2dyb3VuZDogd2hpdGU7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDFjaDtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMWNoO1xuICAgICAgICBwYWRkaW5nLXRvcDogJHtybGggLyAyfXB4O1xuICAgICAgICBwYWRkaW5nLWJvdHRvbTogJHtybGggLyAyfXB4O1xuICAgICAgfVxuICAgICAgLndyYXAge1xuICAgICAgICBtYXgtd2lkdGg6IDY0Y2g7XG4gICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDJjaDtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMmNoO1xuICAgICAgfVxuICAgICAgLmltYWdlLXdyYXAge1xuICAgICAgICBtYXgtd2lkdGg6IDEzNGNoO1xuICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgICAgcGFkZGluZy1sZWZ0OiAyY2g7XG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDJjaDtcbiAgICAgIH1cblxuICAgICAgLmhpZGUtb3V0bGluZSBidXR0b246Zm9jdXMge1xuICAgICAgICBvdXRsaW5lOiBub25lO1xuICAgICAgfVxuICAgICAgbGFiZWwge1xuICAgICAgICB1c2VyLXNlbGVjdDogbm9uZTtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgfVxuICAgICAgbGFiZWwgaW5wdXQge1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDFjaDtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcbiJdfQ== */\n/*@ sourceURL=/Users/grant.custer/Sites/b/layouts/main.js */")));
+  }, "@font-face{font-family:'customono';src:url('/IBMPlexMono-Regular.woff2') format('woff2'), url('/IBMPlexMono-Regular.woff') format('woff');}*{box-sizing:border-box;}html{font-family:'customono',monospace;font-size:".concat(fs, "px;background:#efefef;line-height:").concat(lh, ";}body{margin:0;padding:0;}canvas{display:block;}img,video{display:block;max-width:100%;}a{color:inherit;}textarea,input,button{font-family:inherit;font-size:inherit;line-height:inherit;padding:0;border:none;margin:0;text-align:left;background:transparent;color:black;}input,button{-webkit-text-decoration:underline;text-decoration:underline;cursor:pointer;}textarea{background:white;width:100%;padding-left:1ch;padding-right:1ch;padding-top:").concat(rlh / 2, "px;padding-bottom:").concat(rlh / 2, "px;}.wrap{max-width:64ch;margin:0 auto;padding-left:2ch;padding-right:2ch;}.image-wrap{max-width:134ch;margin:0 auto;padding-left:2ch;padding-right:2ch;}.hide-outline button:focus{outline:none;}label{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}label input{margin-right:1ch;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9ncmFudC5jdXN0ZXIvU2l0ZXMvZ3JhY3VzL3MvbGF5b3V0cy9tYWluLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU11QixBQUdpQyxBQUtGLEFBR2EsQUFNMUIsQUFJSyxBQUlBLEFBSUEsQUFLTSxBQVlNLEFBSVQsQUFRRixBQU1DLEFBT0gsQUFHSSxBQU1BLFNBOURQLElBc0RaLENBbERBLEFBSWlCLEFBSWpCLENBNkJnQixDQU1BLENBZEgsQUE4QmIsRUE5REEsQ0FnQm9CLEVBMUJwQixFQUptRCxJQStDaEMsQ0F6Qm5CLEFBaUNtQixDQU1BLElBdER3QixJQXdCckIsT0FpQkYsQ0FRQSxDQU1BLFdBOUJSLEVBVUssR0FPNEIsQ0FRN0MsQ0FNQSxHQTlCYyxPQXpCTyxBQW1DckIsS0FUVyxLQW9DTSxJQW5DQyxLQTFCeUIsTUE4RDVCLEtBbkNVLENBY3VCLHFCQWpEaEQsQ0FvQ2MsT0EzQmQsS0E0QkEsWUFhQSxzQkFxQnFCLDZGQUNyQiIsImZpbGUiOiIvVXNlcnMvZ3JhbnQuY3VzdGVyL1NpdGVzL2dyYWN1cy9zL2xheW91dHMvbWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImxldCBmcyA9IDE0O1xubGV0IGxoID0gMS41O1xubGV0IHJsaCA9IGZzICogbGg7XG5leHBvcnQgZGVmYXVsdCAoeyBjaGlsZHJlbiB9KSA9PiAoXG4gIDxkaXY+XG4gICAge2NoaWxkcmVufVxuICAgIDxzdHlsZSBnbG9iYWwganN4PntgXG4gICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdjdXN0b21vbm8nO1xuICAgICAgICBzcmM6IHVybCgnL0lCTVBsZXhNb25vLVJlZ3VsYXIud29mZjInKSBmb3JtYXQoJ3dvZmYyJyksXG4gICAgICAgICAgdXJsKCcvSUJNUGxleE1vbm8tUmVndWxhci53b2ZmJykgZm9ybWF0KCd3b2ZmJyk7XG4gICAgICB9XG4gICAgICAqIHtcbiAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgIH1cbiAgICAgIGh0bWwge1xuICAgICAgICBmb250LWZhbWlseTogJ2N1c3RvbW9ubycsIG1vbm9zcGFjZTtcbiAgICAgICAgZm9udC1zaXplOiAke2ZzfXB4O1xuICAgICAgICBiYWNrZ3JvdW5kOiAjZWZlZmVmO1xuICAgICAgICBsaW5lLWhlaWdodDogJHtsaH07XG4gICAgICB9XG4gICAgICBib2R5IHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgfVxuICAgICAgY2FudmFzIHtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICB9XG4gICAgICBpbWcsXG4gICAgICB2aWRlbyB7XG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgICB9XG4gICAgICBhIHtcbiAgICAgICAgY29sb3I6IGluaGVyaXQ7XG4gICAgICB9XG4gICAgICB0ZXh0YXJlYSxcbiAgICAgIGlucHV0LFxuICAgICAgYnV0dG9uIHtcbiAgICAgICAgZm9udC1mYW1pbHk6IGluaGVyaXQ7XG4gICAgICAgIGZvbnQtc2l6ZTogaW5oZXJpdDtcbiAgICAgICAgbGluZS1oZWlnaHQ6IGluaGVyaXQ7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICAgICAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDtcbiAgICAgICAgY29sb3I6IGJsYWNrO1xuICAgICAgfVxuICAgICAgaW5wdXQsXG4gICAgICBidXR0b24ge1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgfVxuICAgICAgdGV4dGFyZWEge1xuICAgICAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIHBhZGRpbmctbGVmdDogMWNoO1xuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxY2g7XG4gICAgICAgIHBhZGRpbmctdG9wOiAke3JsaCAvIDJ9cHg7XG4gICAgICAgIHBhZGRpbmctYm90dG9tOiAke3JsaCAvIDJ9cHg7XG4gICAgICB9XG4gICAgICAud3JhcCB7XG4gICAgICAgIG1heC13aWR0aDogNjRjaDtcbiAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgIHBhZGRpbmctbGVmdDogMmNoO1xuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAyY2g7XG4gICAgICB9XG4gICAgICAuaW1hZ2Utd3JhcCB7XG4gICAgICAgIG1heC13aWR0aDogMTM0Y2g7XG4gICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDJjaDtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMmNoO1xuICAgICAgfVxuXG4gICAgICAuaGlkZS1vdXRsaW5lIGJ1dHRvbjpmb2N1cyB7XG4gICAgICAgIG91dGxpbmU6IG5vbmU7XG4gICAgICB9XG4gICAgICBsYWJlbCB7XG4gICAgICAgIHVzZXItc2VsZWN0OiBub25lO1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICB9XG4gICAgICBsYWJlbCBpbnB1dCB7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMWNoO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pO1xuIl19 */\n/*@ sourceURL=/Users/grant.custer/Sites/gracus/s/layouts/main.js */")));
 });
 
 /***/ }),
@@ -5194,10 +5212,10 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js!./":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fgracus%2Fs%2Fpages%2Fs%2F20191112-222158Z.js!./":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fgracus%2Fs%2Fpages%2Fs%2F20191112-222158Z.js ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5504,11 +5522,7 @@ function (_react$Component) {
       // "<page>/index.html" directly.
 
 
-      if (true) {
-        if (props.href && typeof __NEXT_DATA__ !== 'undefined' && __NEXT_DATA__.nextExport) {
-          props.href = (0, _rewriteUrlForExport.rewriteUrlForNextExport)(props.href);
-        }
-      }
+      if (false) {}
 
       return _react["default"].cloneElement(child, props);
     }
@@ -6483,12 +6497,7 @@ function () {
         var as = typeof _as === 'object' ? utils_1.formatWithValidation(_as) : _as; // Add the ending slash to the paths. So, we can serve the
         // "<page>/index.html" directly for the SSR page.
 
-        if (true) {
-          // @ts-ignore this is temporarily global (attached to window)
-          if (__NEXT_DATA__.nextExport) {
-            as = rewrite_url_for_export_1.rewriteUrlForNextExport(as);
-          }
-        }
+        if (false) {}
 
         _this2.abortComponentLoad(as); // If the url change is only related to a hash change
         // We should not proceed. We should only change the state.
@@ -12107,9 +12116,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/header */ "./components/header.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/grant.custer/Sites/b/pages/s/20191112-222158Z.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "/Users/grant.custer/Sites/gracus/s/pages/s/20191112-222158Z.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -12121,19 +12133,19 @@ function postPage() {
   return __jsx(_layouts_main__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, "b. ", content.timestamp), __jsx("link", {
@@ -12141,14 +12153,14 @@ function postPage() {
     href: "/favicon.ico",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   })), __jsx(_components_header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     rlh: rlh,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }), __jsx(_components_post__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -12156,7 +12168,7 @@ function postPage() {
     rlh: rlh,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }), __jsx("div", {
@@ -12166,17 +12178,23 @@ function postPage() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, "b.grantcuster.com")));
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "s.gracus.codes"))));
 }
 var content = {
   "timestamp": "20191112-222158Z",
@@ -12188,14 +12206,14 @@ var content = {
 
 /***/ }),
 
-/***/ 1:
-/*!**********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js ***!
-  \**********************************************************************************************************************************************************/
+/***/ 3:
+/*!*******************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fgracus%2Fs%2Fpages%2Fs%2F20191112-222158Z.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fb%2Fpages%2Fs%2F20191112-222158Z.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fgracus%2Fs%2Fpages%2Fs%2F20191112-222158Z.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fs%2F20191112-222158Z&absolutePagePath=%2FUsers%2Fgrant.custer%2FSites%2Fgracus%2Fs%2Fpages%2Fs%2F20191112-222158Z.js!./");
 
 
 /***/ }),
@@ -12211,5 +12229,5 @@ module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=20191112-222158Z.js.map
