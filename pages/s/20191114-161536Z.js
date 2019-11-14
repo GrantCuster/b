@@ -26,3 +26,11 @@ export default function postPage() {
     </Layout>
   );
 }
+
+let content = {
+  "timestamp": "20191114-161536Z",
+  "message": "Gracus",
+  "tweet_intent": "true",
+  "toot_intent": "true",
+  "files": []
+};

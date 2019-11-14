@@ -26,3 +26,14 @@ export default function postPage() {
     </Layout>
   );
 }
+
+let content = {
+  "timestamp": "20191112-222158Z",
+  "message": "I wrote this in an app and now it will be posted to Twitter and Mastodon at the same time. I'm including two images because it was very hard for me to get multiple images working in the API so this is my victory post.",
+  "tweet_intent": "true",
+  "toot_intent": "true",
+  "files": [
+    "files/b-20191112-222158Z-0.png",
+    "files/b-20191112-222158Z-1.png"
+  ]
+};

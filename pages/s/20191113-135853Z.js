@@ -26,3 +26,11 @@ export default function postPage() {
     </Layout>
   );
 }
+
+let content = {
+  "timestamp": "20191113-135853Z",
+  "message": "A set of websites you equip and combine like items in an RPG.",
+  "tweet_intent": "true",
+  "toot_intent": "true",
+  "files": []
+};
