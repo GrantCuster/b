@@ -12,7 +12,7 @@ let rlh = fs * lh;
 const Home = () => (
   <div>
     <Head>
-      <title>b.</title>
+      <title>b.grantcuster.com</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 

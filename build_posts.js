@@ -36,7 +36,7 @@ function main() {
   for (let a = 0; a < posts.length; a++) {
     let post = posts[a];
     let post_json = JSON.stringify(post, null, 2);
-    let export_path = 'pages/' + post.timestamp + '.js';
+    let export_path = 'pages/s/' + post.timestamp + '.js';
     export_path,
       fs.writeFileSync(
         export_path,

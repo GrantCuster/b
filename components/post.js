@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function processStamp(stamp) {
   let year = stamp.slice(0, 4);
   let month = stamp.slice(4, 6);
@@ -16,7 +18,12 @@ export default function({ post, rlh, index = false }) {
       <div className="wrap">
         <div style={{ marginBottom: rlh }}>
           {index ? (
-            <a href={'/' + post.timestamp}>{processStamp(post.timestamp)}</a>
+            <Link
+              href={'/s/' + post.timestamp}
+              as={'/' + post.timestamp + '.html'}
+            >
+              <a>{processStamp(post.timestamp)}</a>
+            </Link>
           ) : (
             processStamp(post.timestamp)
           )}
