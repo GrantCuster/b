@@ -1,0 +1,1 @@
+{"timestamp":"20191125-151515Z","message":"Now trying to come up with a principled modifier-key hierarchy that goes i3 -> tmux -> vim/application. Maybe cmd+shift -> cmd -> control? But lots of apps use cmd shortcuts, and I rely on emacs control shortcuts in non-vim textboxes...","tweet_intent":"true","toot_intent":"true","files":[]}
